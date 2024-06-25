@@ -1,0 +1,10 @@
+[Unit]
+Description=display.py
+
+After=default.target
+
+[Service]
+ExecStart=/usr/local/bin/display.py
+
+[Install]
+WantedBy=default.target
